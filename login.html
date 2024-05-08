@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/styles/reset.css" />
+    <link rel="stylesheet" href="asset/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="main-header">
+          <div class="logo">
+            <img
+              class="img-logo"
+              src="https://theme.hstatic.net/1000117512/1000772323/14/logo.png?v=1187"
+              alt="header-logo"
+            />
+          </div>
+          <div class="wrap-input">
+            <input
+              class="input-search"
+              type="text"
+              placeholder="Bạn đang tìm đồ chơi gì?"
+            />
+            <div class="icon-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <ul class="action">
+            <li class="action_item">
+              <i class="fa-solid fa-house"></i>
+            </li>
+            <li class="action_item">
+              <i class="fa-brands fa-square-facebook"></i>
+            </li>
+            <li class="action_item"><i class="fa-brands fa-youtube"></i></li>
+            <li class="action_item">
+              <a href="./login.html"><i class="fa-solid fa-user"></i></a>
+            </li>
+            <li class="action_item"><i class="fa-solid fa-store"></i></li>
+            <li class="action_item"></li>
+          </ul>
+        </div>
+        <div class="sub-header">
+          <ul class="sub-header-wrap">
+            <li class="sub-header-item">Có gì hot</li>
+            <li class="sub-header-item">Sale</li>
+            <li class="sub-header-item">Giới tính</li>
+            <li class="sub-header-item">Tuổi</li>
+            <li class="sub-header-item">Nhóm</li>
+            <li class="sub-header-item">Thương hiệu</li>
+            <li class="sub-header-item">Thông tin</li>
+          </ul>
+        </div>
+      </header>
+      <main style="display: flex">
+        <div
+          class="left"
+          style="
+            width: 50vw;
+            font-size: 50px;
+            font-weight: bold;
+            color: #144c95;
+            margin-left: 40px;
+            height: 100vh;
+            position: relative;
+          "
+        >
+          <span
+            style="
+              width: 1px;
+              height: 100%;
+              position: absolute;
+              background-color: #ccc;
+              right: 0;
+            "
+          ></span>
+          <div style="padding-top: 150px; position: relative">
+            <div>Đăng nhập</div>
+
+            <span
+              style="
+                position: absolute;
+                width: 40px;
+                height: 5px;
+                background-color: #000000;
+                bottom: -8px;
+                left: 0;
+              "
+            ></span>
+          </div>
+        </div>
+        <div class="right" style="width: 50vw; height: 100vh">
+          <div style="display: flex; flex-direction: column">
+            <button
+              style="
+                width: 170px;
+                height: 40px;
+                background-color: red;
+                border: none;
+                border-radius: 9px;
+                color: #fff;
+                margin-top: 100px;
+                margin-left: 50px;
+              "
+            >
+              Sign in with Google
+            </button>
+            <button
+              style="
+                width: 170px;
+                height: 40px;
+                background-color: rgb(38, 0, 255);
+                border: none;
+                border-radius: 9px;
+                color: #fff;
+                margin-top: 10px;
+                margin-left: 50px;
+              "
+            >
+              Sign in with Facebook
+            </button>
+          </div>
+          <form action="#" style="margin-left: 50px; width: 350px">
+            <input
+              type="text"
+              placeholder="username"
+              style="
+                height: 30px;
+                border: none;
+                border: 1px solid #ccc;
+                padding-left: 12px;
+                width: 100%;
+                margin-top: 20px;
+                outline: 1px solid #000;
+              "
+            />
+            <input
+              type="text"
+              placeholder="password"
+              style="
+                height: 30px;
+                border: none;
+                border: 1px solid #ccc;
+                padding-left: 12px;
+                width: 100%;
+                margin-top: 6px;
+                outline: none;
+                outline: 1px solid #000;
+              "
+            />
+          </form>
+          <div style="display: flex; align-items: center; gap: 8px">
+            <button
+              style="
+                width: 170px;
+                height: 40px;
+                background-color: rgb(0, 0, 0);
+                border: none;
+                border-radius: 9px;
+                color: #fff;
+                margin-top: 10px;
+                margin-left: 50px;
+              "
+            >
+              Đăng nhập
+            </button>
+            <div style="font-size: 14px; width: 160px">
+              <a href="" style="color: blue">Quên mật khẩu</a>hoặc
+              <a href="" style="color: blue">Đăng kí</a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer
+        class="footer"
+        style="text-align: center; height: 50px; padding: 25px"
+      >
+        copy right(c) nguyen van phuc
+      </footer>
+    </div>
+  </body>
+</html>

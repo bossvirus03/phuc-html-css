@@ -1,0 +1,248 @@
+/* common */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ============ header ============ */
+.main-header {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  justify-content: space-around;
+}
+.logo {
+  cursor: pointer;
+}
+.wrap-input {
+  position: relative;
+  max-width: 801px;
+  height: 40px;
+}
+.input-search {
+  width: 100%;
+  width: 500px;
+  padding-left: 20px;
+  border-radius: 999px;
+  height: 100%;
+  outline: none;
+  border: 1px solid #ccc;
+}
+.icon-search {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  right: 0%;
+  cursor: pointer;
+}
+.icon-search i {
+  padding-top: 6px;
+  padding-right: 6px;
+  font-size: 25px;
+  color: #003e8f;
+}
+.img-logo {
+  width: 150px;
+  height: 31px;
+}
+.main-header .action {
+  gap: 10px;
+  display: flex;
+}
+.action_item i {
+  font-size: 25px;
+  color: #144c95;
+}
+.action_item {
+  cursor: pointer;
+}
+
+.action_item i:hover {
+  color: #969090;
+}
+.action_item:last-child {
+  position: relative;
+}
+.action_item:last-child::after {
+  position: absolute;
+  margin-left: -10px;
+  bottom: 0;
+  content: "(0)";
+}
+.sub-header-wrap {
+  background-color: #003e8f;
+  height: 65px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 16px;
+}
+.sub-header-wrap li {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.sub-header-wrap li:hover {
+  color: #cecece;
+}
+
+/* =========== banner============ */
+.banner {
+  color: #fff;
+}
+.main-banner {
+  position: relative;
+  width: 100%;
+}
+.main-banner img {
+  width: 100%;
+}
+.button-next-banner {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  right: 0;
+}
+
+.button-next-banner button {
+  position: relative;
+  border: none;
+  height: 65px;
+  width: 65px;
+  cursor: pointer;
+}
+.button-next-banner button:hover {
+  background: inherit;
+}
+.button-next-banner li:first-child::after {
+  z-index: 1;
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 1px;
+  background: #ccc;
+  right: 45px;
+  top: 50%;
+  rotate: 90deg;
+}
+
+.slide-wrapper {
+  display: flex; /* Sử dụng Flexbox */
+  width: 100%; /* Chiều rộng của wrapper là 100% */
+  transition: transform 1s ease; /* Hiệu ứng chuyển đổi */
+}
+
+.slide {
+  flex: 0 0 100%; /* Các slide chiếm toàn bộ chiều rộng của wrapper */
+  max-width: 100%; /* Đảm bảo ảnh không bị vượt quá chiều rộng của slide */
+}
+
+#slideshow {
+  overflow: hidden; /* Ẩn phần dư thừa của slide */
+}
+
+/* sub banner */
+.sub-banner-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-top: 8px;
+  padding: 12px 0;
+}
+.sub-banner {
+  padding-bottom: 20px;
+  background-color: #144c95;
+}
+.sub-menu-list-toys {
+  max-height: 304px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sub-menu-item img {
+  flex-wrap: wrap;
+}
+.sub-menu-item-img img {
+  border-radius: 999px;
+  max-width: 161px;
+}
+.sub-menu-item-title-text {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 8px;
+  font-weight: 400;
+}
+
+/* unique toys */
+.unique-toys {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.unique-toys-list-nav {
+  margin-bottom: 12px;
+}
+.unique-toys-list-nav-item:hover {
+  transition: all 0.2s ease;
+  color: rgb(173, 173, 2);
+}
+.unique-toys-list-nav-item.active::after {
+  background-color: #a1a1a1;
+}
+.unique-toys-list-nav-item:hover::after {
+  transition: all 0.2s ease;
+  background-color: #a1a1a1;
+}
+.unique-toys-list-nav-item {
+  padding: 0 40px;
+  position: relative;
+  cursor: pointer;
+}
+.unique-toys-list-nav-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  left: 0;
+  bottom: -8px;
+}
+.unique-toys-list-toys-preview {
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  row-gap: 30px;
+}
+.unique-toys-list-toys-preview-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+.unique-toys-list-toys-preview-item img {
+  margin: 0 auto;
+  max-width: 180px;
+}
+.unique-toys-list-toys-preview-item-type {
+  margin-bottom: 6px;
+  text-align: center;
+}
+.unique-toys-list-toys-preview-item-cost {
+  margin-top: 6px;
+  position: relative;
+}
+.unique-toys-list-toys-preview-item-cost::before {
+  margin-top: 6px;
+  content: "NEW";
+  font-size: 12px;
+  background-color: #00aa0e;
+  padding: 2px 7px;
+  border-radius: 999px;
+  margin-right: 5px;
+}
