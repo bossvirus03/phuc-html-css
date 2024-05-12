@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/styles/reset.css" />
+    <link rel="stylesheet" href="asset/styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="main-header">
+          <div class="logo">
+            <a href="./index.html">
+              <img
+                class="img-logo"
+                src="https://theme.hstatic.net/1000117512/1000772323/14/logo.png?v=1187"
+                alt="header-logo"
+              />
+            </a>
+          </div>
+          <div class="wrap-input">
+            <input
+              class="input-search"
+              type="text"
+              placeholder="Bạn đang tìm đồ chơi gì?"
+            />
+            <div class="icon-search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+          <ul class="action">
+            <li class="action_item">
+              <a href="#home"><i class="fa-solid fa-house"></i></a>
+            </li>
+            <li class="action_item">
+              <i class="fa-brands fa-square-facebook"></i>
+            </li>
+            <li class="action_item"><i class="fa-brands fa-youtube"></i></li>
+            <li class="action_item">
+              <a href="./login.html"><i class="fa-solid fa-user"></i></a>
+            </li>
+            <li class="action_item"><i class="fa-solid fa-store"></i></li>
+            <li class="action_item"></li>
+          </ul>
+        </div>
+        <div class="sub-header">
+          <ul class="sub-header-wrap">
+            <li class="sub-header-item">Có gì hot</li>
+            <li class="sub-header-item">Sale</li>
+            <li class="sub-header-item">Giới tính</li>
+            <li class="sub-header-item">Tuổi</li>
+            <li class="sub-header-item"><a href="#list-toys">Nhóm</a></li>
+            <li class="sub-header-item">Thương hiệu</li>
+            <li class="sub-header-item">Thông tin</li>
+          </ul>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container" style="margin: 0 auto; max-width: 1300px">
+          <div class="breadcrumb">trang chủ > 3-6 tuổi> Thẻ Pokémon</div>
+          <div class="detail-item-wrap" style="display: flex">
+            <div class="detail-item-left">
+              <div class="wrapper_tabcontent">
+                <div id="img_1" class="tabcontent_i active">
+                  <div
+                    class="tabs-content_i active"
+                    id="img_1"
+                    style="display: block"
+                  >
+                    <img
+                      src="https://product.hstatic.net/1000117512/product/185-85353-3_353fefc4526647c4b6396b5262a11290_master.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div id="img_2" class="tabcontent_i">
+                  <div class="tabs-content" id="img_2" style="display: block">
+                    <img
+                      src="https://product.hstatic.net/1000117512/product/185-85353-2_0c85f7a087d543c79f19c0a4c7cf1845_master.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="tabs-img-preview-item">
+                <button
+                  class="tablinks-img-preview-item active"
+                  data-electronic="img_1"
+                ></button>
+                <button
+                  class="tablinks-img-preview-item"
+                  data-electronic="img_2"
+                ></button>
+              </div>
+            </div>
+            <div class="detail-item-right">
+              <div
+                class="detail-item-right-title"
+                style="
+                  font-size: 20px;
+                  font-weight: 500;
+                  margin: 0 0 5px;
+                  line-height: initial;
+                  color: #264a9b;
+                "
+              >
+                Thẻ POKÉMON TCG SV02 3 BLISTER
+              </div>
+              <div
+                class="detail-item-right-id"
+                style="
+                  font-size: 12px;
+                  color: #a3a5a7;
+                  font-family: 'Paytone One', sans-serif;
+                "
+              >
+                SKU: 185-85353
+              </div>
+              <hr />
+              <div
+                class="detail-item-right-cost"
+                style="
+                  font-size: 18px;
+                  opacity: 0.92;
+                  font-weight: 500;
+                  color: #264a9b;
+                "
+              >
+                590,000₫
+              </div>
+              <hr />
+              <div class="number-control">
+                <div class="number-left"></div>
+                <input type="number" name="number" class="number-quantity" />
+                <div class="number-right"></div>
+              </div>
+              <div
+                class="detail-item-right-action"
+                style="display: flex; margin: 30px 0; gap: 20px"
+              >
+                <button
+                  style="
+                    background-color: #64b144;
+                    border-radius: 12px;
+                    width: 250px;
+                    height: 50px;
+                    color: #fff;
+                    font-size: 18px;
+                    border: none;
+                  "
+                >
+                  Thêm vào giỏ
+                </button>
+                <button
+                  style="
+                    background-color: #0051ff;
+                    border-radius: 12px;
+                    width: 250px;
+                    height: 50px;
+                    color: #fff;
+                    font-size: 18px;
+                    border: none;
+                  "
+                >
+                  Mua ngay
+                </button>
+              </div>
+              <div class="detail-item-right-description">
+                <div class="tabs">
+                  <button class="tablinks active" data-electronic="allproducts">
+                    Mô tả
+                  </button>
+                  <button class="tablinks" data-electronic="module">
+                    Thông tin sản phẩm
+                  </button>
+                </div>
+
+                <!-- Tab content -->
+                <div
+                  class="wrapper_tabcontent"
+                  style="margin-top: 20px; line-height: 21px; color: #264a9b"
+                >
+                  <div id="allproducts" class="tabcontent active">
+                    <div
+                      class="tabs-content active"
+                      id="tab1"
+                      style="display: block"
+                    >
+                      <p>
+                        <strong>Đồ chơi Thẻ POKÉMON TCG SV02 3 BLISTER</strong
+                        ><br /><br />Trò chơi thẻ bài Pokémon là một trò chơi
+                        thẻ bài sưu tầm được phát triển bởi Creatures Inc. Thẻ
+                        trò chơi tiêu chuẩn bao gồm thẻ Pokémon, thẻ năng lượng,
+                        thẻ huấn luyện viên và thẻ sân vận động, một biến thể
+                        của thẻ huấn luyện viên. Thẻ Pokémon chứa dữ liệu về
+                        loại, đòn tấn công, khả năng và HP của sinh vật cũng như
+                        bất kỳ hiệu ứng đặc biệt nào mà thẻ có trong trò chơi<br /><br /><strong
+                          >Đặc trưng sản phẩm:</strong
+                        >
+                      </p>
+                      <ul>
+                        <li>Mẫu Thẻ bài bất kỳ (random)</li>
+                        <li>Có thẻ code để chơi trên app Pokemon TCG Online</li>
+                        <li>
+                          Hàng chính hãng và có cơ hội trúng thẻ Hiếm và Mạnh
+                        </li>
+                      </ul>
+                      <div>
+                        <strong
+                          >Vỉ Pokémon TCG SV02 3 BLISTER 185-85353 bao
+                          gồm:</strong
+                        >
+                      </div>
+                      <ul>
+                        <li>
+                          3 gói booster pack Scarlet &amp; Violet—Obsidian
+                          Flames.
+                        </li>
+                        <li>
+                          Mỗi gói booster pack chứa 10 thẻ và 1 Năng lượng cơ
+                          bản. Thẻ khác nhau tùy theo gói.
+                        </li>
+                        <li>
+                          1 Thẻ Promo bằng giấy bạc có hình Varoom và Tinkatink.
+                        </li>
+                        <li>1 Thẻ QR-Code cho Pokémon TCG Live</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div id="module" class="tabcontent">
+                    <div class="tabs-content" id="tab2" style="display: block">
+                      <p><strong>POKÉMON TCG SV02 3 BLISTER</strong></p>
+                      <ul>
+                        <li>Xuất xứ thương hiệu: Nhật Bản</li>
+                        <li>Xuất xứ: Thẻ được in tại Mỹ</li>
+                        <li>Thông số kỹ thuật: Không sử dụng pin</li>
+                        <li>Kích thước sản phẩm: 0.45 x 7.65 x 6.95 inches</li>
+                        <li>Độ tuổi: 6+</li>
+                        <li>Dòng sản phẩm: Anime</li>
+                        <li>
+                          Chất liệu: Cardboard/ Giấy / acrylic / polyresin /
+                          polypropylene.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-link">
+            <h1
+              style="
+                font-size: 40px;
+                font-weight: 600;
+                text-align: center;
+                color: #264a9b;
+                margin-bottom: 50px;
+              "
+            >
+              Sản phẩm liên quan
+            </h1>
+            <div class="unique-toys-list-toys-preview">
+              <a href="./detail_items.html">
+                <div class="unique-toys-list-toys-preview-item">
+                  <img
+                    src="https://product.hstatic.net/1000117512/product/185-85353-1_f8b497ff664e4dd79d5f992789fa2436_large.png"
+                    alt=""
+                  />
+                  <p
+                    class="unique-toys-list-toys-preview-item-type"
+                    style="color: red; font-size: 14px; font-weight: 500"
+                  >
+                    Pokemon
+                  </p>
+                  <p
+                    class="unique-toys-list-toys-preview-item-name"
+                    style="
+                      font-size: 14px;
+                      color: #264a9b;
+                      font-weight: 500;
+                      text-wrap: wrap;
+                    "
+                  >
+                    Thẻ POKÉMON TCG SV03 3 BLISTER
+                  </p>
+                  <p
+                    class="unique-toys-list-toys-preview-item-cost"
+                    style="font-size: 15px; font-weight: 500"
+                  >
+                    1.000.000
+                  </p>
+                </div>
+              </a>
+              <a href="./detail_items.html">
+                <div class="unique-toys-list-toys-preview-item">
+                  <img
+                    src="https://product.hstatic.net/1000117512/product/185-85353-1_f8b497ff664e4dd79d5f992789fa2436_large.png"
+                    alt=""
+                  />
+                  <p
+                    class="unique-toys-list-toys-preview-item-type"
+                    style="color: red; font-size: 14px; font-weight: 500"
+                  >
+                    Pokemon
+                  </p>
+                  <p
+                    class="unique-toys-list-toys-preview-item-name"
+                    style="
+                      font-size: 14px;
+                      color: #264a9b;
+                      font-weight: 500;
+                      text-wrap: wrap;
+                    "
+                  >
+                    Thẻ POKÉMON TCG SV03 3 BLISTER
+                  </p>
+                  <p
+                    class="unique-toys-list-toys-preview-item-cost"
+                    style="font-size: 15px; font-weight: 500"
+                  >
+                    1.000.000
+                  </p>
+                </div>
+              </a>
+              <a href="./detail_items.html">
+                <div class="unique-toys-list-toys-preview-item">
+                  <img
+                    src="https://product.hstatic.net/1000117512/product/185-85353-1_f8b497ff664e4dd79d5f992789fa2436_large.png"
+                    alt=""
+                  />
+                  <p
+                    class="unique-toys-list-toys-preview-item-type"
+                    style="color: red; font-size: 14px; font-weight: 500"
+                  >
+                    Pokemon
+                  </p>
+                  <p
+                    class="unique-toys-list-toys-preview-item-name"
+                    style="
+                      font-size: 14px;
+                      color: #264a9b;
+                      font-weight: 500;
+                      text-wrap: wrap;
+                    "
+                  >
+                    Thẻ POKÉMON TCG SV03 3 BLISTER
+                  </p>
+                  <p
+                    class="unique-toys-list-toys-preview-item-cost"
+                    style="font-size: 15px; font-weight: 500"
+                  >
+                    1.000.000
+                  </p>
+                </div>
+              </a>
+              <a href="./detail_items.html">
+                <div class="unique-toys-list-toys-preview-item">
+                  <img
+                    src="https://product.hstatic.net/1000117512/product/185-85353-1_f8b497ff664e4dd79d5f992789fa2436_large.png"
+                    alt=""
+                  />
+                  <p
+                    class="unique-toys-list-toys-preview-item-type"
+                    style="color: red; font-size: 14px; font-weight: 500"
+                  >
+                    Pokemon
+                  </p>
+                  <p
+                    class="unique-toys-list-toys-preview-item-name"
+                    style="
+                      font-size: 14px;
+                      color: #264a9b;
+                      font-weight: 500;
+                      text-wrap: wrap;
+                    "
+                  >
+                    Thẻ POKÉMON TCG SV03 3 BLISTER
+                  </p>
+                  <p
+                    class="unique-toys-list-toys-preview-item-cost"
+                    style="font-size: 15px; font-weight: 500"
+                  >
+                    1.000.000
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer
+        class="footer"
+        style="text-align: center; height: 50px; padding: 25px"
+      >
+        copy right(c) nguyen van phuc
+      </footer>
+    </div>
+    <script>
+      var tabLinks = document.querySelectorAll(".tablinks");
+      var tabContent = document.querySelectorAll(".tabcontent");
+      var tabLinks_i = document.querySelectorAll(".tablinks-img-preview-item");
+      var tabContent_i = document.querySelectorAll(".tabcontent_i");
+
+      tabLinks.forEach(function (el) {
+        el.addEventListener("click", function () {
+          openTabs(el, true);
+        });
+      });
+
+      tabLinks_i.forEach(function (el) {
+        el.addEventListener("click", function () {
+          openTabs(el, false);
+        });
+      });
+
+      function openTabs(el, isTablinks) {
+        var btn = el;
+        var electronic = btn.getAttribute("data-electronic");
+
+        // Xử lý cho tab content thông qua class tabcontent và tabcontent_i
+        if (isTablinks) {
+          tabContent.forEach(function (el) {
+            el.classList.remove("active");
+          });
+        } else {
+          tabContent_i.forEach(function (el) {
+            el.classList.remove("active");
+          });
+        }
+
+        document.querySelector("#" + electronic).classList.add("active");
+
+        // Xử lý cho tablinks và tablinks-img-preview-item
+        if (isTablinks) {
+          tabLinks.forEach(function (el) {
+            el.classList.remove("active");
+          });
+        } else {
+          tabLinks_i.forEach(function (el) {
+            el.classList.remove("active");
+          });
+        }
+
+        btn.classList.add("active");
+      }
+    </script>
+  </body>
+</html>
